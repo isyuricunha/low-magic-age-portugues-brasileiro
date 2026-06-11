@@ -29,18 +29,18 @@ s_cls_list			="Lista de Classes"
 s_fav_cls			="Classe Favorecida"	s_fav_cls_d	=[[Classe favorecida é um conceito relacionado a multiclasse que personagens de classe única não precisam considerar.
 
 Ao determinar se um personagem sofre penalidade de XP por multiclasse:
-Um personagem multiclasse sofre uma penalidade de –20% em XP para cada classe que não esteja dentro de um nível de sua classe de nível mais alto.
+Um personagem multiclasse sofre uma penalidade de -20% em XP para cada classe que não esteja dentro de um nível de sua classe de nível mais alto.
 Se sua classe favorecida for uma classe específica, ignore-a primeiro.
 Se sua classe favorecida for qualquer classe, ignore sua classe de nível mais alto primeiro.]]
-s_xcls_xp_pnt		="Penalidade de XP por Multiclasse"	s_xcls_xp_pnt_d	="Um personagem multiclasse sofre uma penalidade de –20% em XP para cada classe que não esteja dentro de um nível de sua classe de nível mais alto.\n\nUma classe favorecida (veja as entradas de raça) ou uma classe de prestígio não conta para esta penalidade."
+s_xcls_xp_pnt		="Penalidade de XP por Multiclasse"	s_xcls_xp_pnt_d	="Um personagem multiclasse sofre uma penalidade de -20% em XP para cada classe que não esteja dentro de um nível de sua classe de nível mais alto.\n\nUma classe favorecida (veja as entradas de raça) ou uma classe de prestígio não conta para esta penalidade."
 s_clsx				="Personagens Multiclasse"	s_clsx_d	=[[Um personagem pode adicionar novas classes à medida que progride de nível, tornando-se assim um personagem multiclasse. As habilidades de classe de diferentes classes do personagem se combinam para determinar as habilidades gerais do personagem multiclasse. O multiclasse melhora a versatilidade do personagem à custa do foco.
 
 <h2 c=ty>Características de Classe e Nível</h2>
 Como regra geral, as habilidades de um personagem multiclasse são a soma das habilidades de cada uma de suas classes.
 
-<b c=ty>Nível:</b> “Nível do personagem” é o número total de níveis de um personagem. É usado para determinar quando os talentos e aumentos de pontuação de atributo são obtidos.
+<b c=ty>Nível:</b> "Nível do personagem" é o número total de níveis de um personagem. É usado para determinar quando os talentos e aumentos de pontuação de atributo são obtidos.
 
-“Nível de classe” é o nível de um personagem em uma classe específica. Para um personagem cujos níveis estão todos na mesma classe, o nível do personagem e o nível de classe são os mesmos.
+"Nível de classe" é o nível de um personagem em uma classe específica. Para um personagem cujos níveis estão todos na mesma classe, o nível do personagem e o nível de classe são os mesmos.
 
 <b c=ty>Pontos de Vida:</b> Ganhe pontos de vida de cada classe à medida que o nível da classe aumenta, adicionando os novos pontos de vida ao total anterior.
 
@@ -77,7 +77,7 @@ Seus níveis de bárbaro e ladrão se somam para determinar o nível de ladrão 
 <h2 c=ty>Penalidade de XP por Multiclasse</h2>
 Desenvolver e manter habilidades e capacidades em mais de uma classe é um processo exigente. Dependendo dos níveis de classe e raça do personagem, ele pode ou não sofrer uma penalidade de XP.
 
-Se quaisquer duas classes de um personagem multiclasse estiverem duas ou mais classes separadas, a tensão de desenvolver e manter diferentes habilidades em níveis diferentes cobra seu preço. Um personagem multiclasse sofre uma penalidade de –20% em XP para cada classe que não esteja dentro de um nível de sua classe de nível mais alto.
+Se quaisquer duas classes de um personagem multiclasse estiverem duas ou mais classes separadas, a tensão de desenvolver e manter diferentes habilidades em níveis diferentes cobra seu preço. Um personagem multiclasse sofre uma penalidade de -20% em XP para cada classe que não esteja dentro de um nível de sua classe de nível mais alto.
 
 Uma classe favorecida (veja as entradas de raça) ou uma classe de prestígio não conta para esta penalidade.]]
 s_cls_features		="Recursos de Classe"
@@ -191,7 +191,7 @@ s_drd_ban			="Proibido"	s_drd_ban_d	="Suprime poderes druídicos."
 s_mnk_amr			="Ao usar armadura, escudo ou carregar uma carga média ou pesada, um monge perde seu bônus de CA, além de suas habilidades de movimento rápido e investida de golpes."
 s_spl_amr			="Magias Arcana e Armaduras"	s_spl_amr_d	=[[Magos e feiticeiros não sabem como usar armaduras de forma eficaz.
 
-Se desejarem, eles podem usar armaduras mesmo assim (embora fiquem desajeitados nelas), ou podem obter treinamento no uso adequado de armaduras (com os diversos talentos de Proficiência em Armaduras — leve, média e pesada — e o talento Proficiência em Escudos), ou podem multiclasse para adicionar uma classe que lhes conceda proficiência em armaduras. Mesmo que um mago ou feiticeiro esteja usando uma armadura com a qual seja proficiente, ela ainda pode interferir no lançamento de magias.
+Se desejarem, eles podem usar armaduras mesmo assim (embora fiquem desajeitados nelas), ou podem obter treinamento no uso adequado de armaduras (com os diversos talentos de Proficiência em Armaduras - leve, média e pesada - e o talento Proficiência em Escudos), ou podem multiclasse para adicionar uma classe que lhes conceda proficiência em armaduras. Mesmo que um mago ou feiticeiro esteja usando uma armadura com a qual seja proficiente, ela ainda pode interferir no lançamento de magias.
 
 As armaduras restringem os gestos complexos que um mago ou feiticeiro deve fazer ao lançar qualquer magia que tenha um componente somático (a maioria delas). As descrições de armaduras e escudos listam a chance de falha de magia arcana para diferentes armaduras e escudos.
 
@@ -306,7 +306,7 @@ clss={
 },
 
 [cls_brd]={n="Bardo", a="Brd"
-,b="Um artista cuja música funciona como magia — um andarilho, contador de histórias e um faz-tudo."
+,b="Um artista cuja música funciona como magia - um andarilho, contador de histórias e um faz-tudo."
 ,d=[[Um bardo traz magia de sua alma, não de um livro. Ele pode lançar apenas alguns feitiços, mas pode fazê-lo sem selecionar ou preparar esses feitiços com antecedência. Sua magia enfatiza encantamentos e ilusões em vez dos feitiços de evocação mais dramáticos que magos e feiticeiros frequentemente usam.
 
 Além de feitiços, um bardo trabalha magia com sua música e poesia. Ele pode encorajar aliados, prender sua plateia e combater efeitos mágicos que dependem de fala ou som.
@@ -376,7 +376,7 @@ O ataque do ladrão causa dano extra sempre que o alvo não puder adicionar seu 
 
 Ataques à distância podem contar como ataques surpresa somente se o alvo estiver a 9 metros (30 pés) ou menos.
 
-Um ladrão só pode realizar ataques surpresa em criaturas vivas com anatomia discernível — mortos-vivos, constructos, oozes, plantas e criaturas incorpóreas não possuem áreas vitais para atacar. Qualquer criatura imune a golpes críticos não é vulnerável a ataques surpresa. O ladrão deve conseguir enxergar bem o alvo o suficiente para escolher um ponto vital e deve ser capaz de atingir tal ponto. Um ladrão não pode realizar um ataque surpresa enquanto atingir uma criatura com ocultação ou enquanto atingir os membros de uma criatura cujos pontos vitais estão fora de alcance.
+Um ladrão só pode realizar ataques surpresa em criaturas vivas com anatomia discernível - mortos-vivos, constructos, oozes, plantas e criaturas incorpóreas não possuem áreas vitais para atacar. Qualquer criatura imune a golpes críticos não é vulnerável a ataques surpresa. O ladrão deve conseguir enxergar bem o alvo o suficiente para escolher um ponto vital e deve ser capaz de atingir tal ponto. Um ladrão não pode realizar um ataque surpresa enquanto atingir uma criatura com ocultação ou enquanto atingir os membros de uma criatura cujos pontos vitais estão fora de alcance.
 
 <b>Aumenta:</b>
 Ladrão, Assassino: Começando no 1º nível, aumenta em +1d6 a cada 2 níveis de classe subsequentes (1, 3, 5...).
@@ -393,9 +393,9 @@ s_slippery_mind				="Mente Escorregadia"			s_slippery_mind_d			="Quando afetado 
 -- z_bbn	野蛮人	Barbarian
 s_rage						="Fúria"						s_rage_d					=[[Entre em uma frenesi sanguinária gritando, o personagem ganha força e durabilidade fenomenais, mas se torna imprudente e menos capaz de se defender.
 
-Em uma fúria, o personagem recebe temporariamente um bônus de +4 em Força e Constituição e um bônus de moral de +2 em testes de resistência de Vontade, mas sofre uma penalidade de –2 na CA.
+Em uma fúria, o personagem recebe temporariamente um bônus de +4 em Força e Constituição e um bônus de moral de +2 em testes de resistência de Vontade, mas sofre uma penalidade de -2 na CA.
 
-No final da fúria, o personagem fica fatigado (penalidade de –2 em Força e Destreza, não pode carregar) durante a duração do encontro atual.
+No final da fúria, o personagem fica fatigado (penalidade de -2 em Força e Destreza, não pode carregar) durante a duração do encontro atual.
 
 Duração em rodadas: 3 + modificador de Constituição (enfurecido).
 Usos por dia: 1 + nível / 4.

@@ -219,7 +219,7 @@ Quase todos os lançamentos de dados que você fizer serão modificados com base
 Cada habilidade acima da média do seu personagem lhe dá um benefício em certos lançamentos de dados, e cada habilidade abaixo da média lhe dá uma desvantagem em outros lançamentos.]]
 
 s_abis_h=s_abis_d.."\n\n\n"..[[<h3 c=ty>Modificadores de Habilidade</h3>
-Cada habilidade, após mudanças feitas por raça, tem um modificador que varia de –5 a +5.
+Cada habilidade, após mudanças feitas por raça, tem um modificador que varia de -5 a +5.
 
 O modificador é o número que você aplica ao lançamento de dados quando seu personagem tenta fazer algo relacionado àquela habilidade.
 
@@ -270,7 +270,7 @@ dex={n="Destreza", a="Des", d=[[<c=desc>Destreza mede a coordenação olho-mão,
 con={n="Constituição", a="Con", d=[[<c=desc>Constituição representa a saúde e a resistência do seu personagem. Um bônus de Constituição aumenta os pontos de vida de um personagem, então essa habilidade é importante para todas as classes.</c>
 
 <hb c=ty>Você aplica o modificador de Constituição do seu personagem a:</hb>
-• Cada rolamento de um Dado de Vida (embora uma penalidade nunca possa reduzir o resultado para menos de 1 — isto é, um personagem sempre ganha pelo menos 1 ponto de vida toda vez que ele sobe de nível).
+• Cada rolamento de um Dado de Vida (embora uma penalidade nunca possa reduzir o resultado para menos de 1 - isto é, um personagem sempre ganha pelo menos 1 ponto de vida toda vez que ele sobe de nível).
 
 • Salvaguardas de Fortitude, para resistir a venenos e ameaças similares.
 

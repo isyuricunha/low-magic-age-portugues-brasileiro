@@ -73,11 +73,11 @@ Se o resultado for igual ou maior que o número alvo, seu personagem consegue.
 Se o resultado for menor que o número alvo, você falha.
 
 
-<b>Dados:</b> Os lançamentos de dados são descritos com expressões como “3d4+3”, que significa “lance três dados de quatro lados e adicione 3” (resultando em um número entre 6 e 15).
+<b>Dados:</b> Os lançamentos de dados são descritos com expressões como "3d4+3", que significa "lance três dados de quatro lados e adicione 3" (resultando em um número entre 6 e 15).
 
 O primeiro número diz quantos dados você deve lançar (somando os resultados).
 
-O número imediatamente após o “d” diz que tipo de dado usar.
+O número imediatamente após o "d" diz que tipo de dado usar.
 
 Qualquer número depois disso indica uma quantidade que é adicionada ou subtraída do resultado.
 

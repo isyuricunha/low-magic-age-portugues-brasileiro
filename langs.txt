@@ -1,0 +1,8 @@
+en=English
+cs=Simplified Chinese
+ct=Traditional Chinese
+fr=French
+it=Italiano
+jp=Japanese
+sp=Spanish
+ptbr=Portugues Brasileiro

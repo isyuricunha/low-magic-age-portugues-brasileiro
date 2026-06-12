@@ -1,203 +1,456 @@
-s_lma_bg		="Plano de Fundo"
+s_lma_bg		="Antecedentes"
 s_cmt_101		="Técnicas Básicas de Combate"
 s_arn_rule		="Regras da Arena"
-s_lv_up			="Nível e Progressão de Nível"
+s_lv_up			="Nível e Evolução"
 s_faq			="Perguntas Frequentes"
-s_credits		="Créditos & Agradecimentos"
-s_ogl			="Licença de Jogo Aberto (OGL)"
+s_credits		="Créditos e Agradecimentos"
+s_ogl			="Licença Aberta de Jogos (OGL)"
 s_ogl_diffs		="Diferenças com a OGL"
 s_other_content	="Outros conteúdos."
 
 
-lma_bg=[[Após a queda dos antigos impérios arcanos, a era de ouro da magia chegou ao fim. A maioria dos feitiços e conhecimentos relacionados foram perdidos, e até mesmo itens encantados se tornaram escassos e preciosos.
+lma_bg=[[Após a queda dos antigos impérios arcanos, a era dourada da magia chegou ao fim. A maioria das magias e conhecimentos relacionados foi perdida, até mesmo itens encantados tornaram-se escassos e preciosos.
 
-No entanto, sempre há uma bênção disfarçada. A maré baixa da magia também trouxe um desenvolvimento sem precedentes das técnicas tradicionais de luta, e todas as táticas e truques de combate fizeram grandes progressos. Cada vez mais aventureiros, mercenários e caçadores de recompensas se juntaram à torrente de mudanças. Até mesmo os magos, que antes se escondiam em suas torres em espiral, agora entram no campo de batalha com livros de feitiços e adagas nas mãos.
+No entanto, sempre há uma bênção disfarçada. A baixa maré da magia também trouxe um desenvolvimento sem precedentes das técnicas de combate tradicionais, e todos os truques e táticas de combate progrediram muito. Cada vez mais aventureiros, mercenários e caçadores de recompensas juntaram-se à onda de mudança. Até os magos, antes ocultos em suas torres espirais, entraram no campo de batalha com grimórios e adagas nas mãos.
 
-Nesta era, você e seus companheiros pegam espadas longas de herança, murmuram feitiços quase extintos e iniciam sua jornada de aventuras...]]
+Nessa era, você e seus companheiros empunham espadas longas de herança, murmuram as magias quase extintas e iniciam sua jornada de aventuras...]]
+
 
 cmt_101=[[<b> </b>
 
 <h3 c=ty>1. Combate por Turnos</h3>
-Quando o combate começa, todos os personagens iniciam seus turnos seguindo a sequência de seus testes de iniciativa. Após um personagem terminar todas as suas ações, seu turno acaba e passa para o próximo. Quando todos os combatentes terminarem seus turnos, uma rodada é concluída e o combatente mais rápido inicia seu turno novamente. Repita esses passos até que o combate termine, ou seja, quando um grupo de combatentes perder completamente suas capacidades de luta.
-
-<h3 c=ty>2. Atos com estratégia</h3>
-Um personagem pode realizar duas ações por turno: uma <c=y>Ação Padrão</c> e uma <c=g>Ação de Movimento</c>. Atacar e lançar um feitiço normalmente são ações padrão, enquanto ações mais simples, como se mover e trocar de arma, são ações de movimento.
-
-Uma técnica de combate típica é se mover para um quadrado adjacente a um inimigo e atacá-lo. Se você já estiver adjacente ao inimigo, pode simplesmente permanecer no lugar (ou se deslocar, veja abaixo) e realizar um <c=y>Ataque de Turno Completo</c>. Tal ataque consome automaticamente tanto sua ação padrão quanto de movimento e é mais poderoso!
-
-<h3 c=ty>3. Cuidado com os <c=r>Ataques de Oportunidade</c> dos inimigos!</h3>
-É perigoso se distrair com outras coisas e baixar a guarda durante um combate intenso. Os oponentes próximos mirarão em seu ponto fraco e desferirão um golpe esmagador! Esse tipo de ataque livre desencadeado é chamado de <c=r>Ataque de Oportunidade</c>.
-
-Algumas ações provocam ataques de oportunidade, como se mover, atacar à distância e lançar feitiços.
-
-Pense duas vezes antes de atirar em um inimigo adjacente ou simplesmente se evadir dele. Usar o <c=g>Deslocamento</c> adequadamente pode ajudá-lo a recuar com segurança.
-
-Vá em frente e busque mais técnicas de combate por conta própria entre sangue e aço...]]
-arena=[[Bem-vindo à Arena, recruta!
+Quando o combate começa, todos os personagens iniciam seus turnos seguindo a sequência de seus testes de iniciativa. Após um personagem concluir todas as suas ações, seu turno termina e passa para o próximo. Quando todos os combatentes terminaram seus turnos, uma rodada se encerra e o combatente mais rápido inicia seu turno novamente. Repita esses passos até que o combate termine, o que significa que um grupo de combatentes perdeu todas as suas capacidades de combate.
 
 
-Como um novato, você pode começar seus desafios simplesmente com o grupo padrão. Ou crie seus próprios personagens primeiro.
+<h3 c=ty>2. Ações com Estratégia</h3>
+Um personagem pode realizar duas ações por turno: uma <c=y>Ação Padrão</c> e uma <c=g>Ação de Movimento</c>. Atacar e conjurar uma magia são normalmente ações padrão, enquanto ações mais simples como mover e trocar de arma são ações de movimento.
 
-<b c=lbl>Preparação para Batalhas: </b>Não é permitido usar mochilas em combate. Apenas armas de reserva estão disponíveis. Então, prepare-se cuidadosamente antes de lutar.
+Uma técnica típica de combate é mover-se para uma casa adjacente a um inimigo e atacá-lo. Se você já estiver adjacente ao inimigo, pode simplesmente permanecer onde está (ou deslocar, veja abaixo) e fazer seu <c=y>Ataque de Turno Completo</c>. Esse ataque consumirá automaticamente ambas as suas ações padrão e de movimento e é mais poderoso!
 
-<b c=lbl>Recuperação Automática: </b>Personagens caídos serão revividos automaticamente após uma batalha. E todo o grupo também será restaurado à melhor condição.
 
-<b c=lbl>Comprando Equipamentos: </b>Verifique a Loja com frequência. Os produtos serão renovados sempre que você vencer uma batalha.
+<h3 c=ty>3. Cuidado com <c=r>Ataques de Oportunidade</c> dos inimigos!</h3>
+É perigoso ficar distraído com outras coisas e baixar a guarda durante uma luta feroz. Os oponentes próximos mirarão seu ponto fraco e desferirão um golpe devastador! Esse tipo de ataque gratuito desencadeado é chamado de <c=r>Ataques de Oportunidade</c>.
 
-<b c=lbl>Desafios Infinitos: </b>Atualize a arena quando concluir um conjunto de desafios. À medida que seu grupo sobe de nível, haverá mais e adversários mais fortes à sua espera!
+Algumas ações provocarão ataques de oportunidade, como mover-se, ataque à distância e conjuração de magia.
+
+Pense duas vezes antes de atirar em um inimigo adjacente ou simplesmente fugir dele. Usar o <c=g>Deslocamento</c> adequadamente pode ajudá-lo a recuar com segurança.
+
+
+Avance, e procure por mais técnicas de combate por conta própria entre sangue e aço...]]
+
+
+arena=[[Bem-vindo à Arena, calouro!
+
+
+Como iniciante, você pode iniciar seus desafios simplesmente com o grupo padrão. Ou criar seus próprios personagens primeiro.
+
+<b c=lbl>Preparação para Batalhas: </b>Não é permitido usar mochilas em combate. Apenas armas de reserva estão disponíveis. Portanto, prepare-se cuidadosamente antes de lutar.
+
+<b c=lbl>Recuperação Automática: </b>Personagens caídos serão revividos automaticamente após uma batalha. E todo o grupo será restaurado à melhor condição também.
+
+<b c=lbl>Compra de Equipamento: </b>Visite a Loja frequentemente. Os itens serão renovados sempre que você vencer uma batalha.
+
+<b c=lbl>Desafios Infinitos: </b>Reinicie a arena quando completar um conjunto de desafios. À medida que seu grupo sobe de nível, haverá mais e mais fortes oponentes esperando por você!
 
 
 É isso. Que a batalha comece!]]
 
+
 phb={n="Manual de Aventura",d=[[Este é um mundo fantástico composto por guerreiros heroicos, atiradores ágeis, magos poderosos e monstros horríveis.
 
-Este é um mundo misterioso repleto de ruínas antigas e cavernas vastas nas quais apenas os heróis mais corajosos se atrevem a adentrar.
+Este é um mundo misterioso cheio de ruínas antigas e cavernas vastas que só os heróis mais corajosos ousam adentrar.
 
-Este é um mundo de espada e magia, com elfos e goblins, com dróus e liches.
+Este é um mundo de espada e magia, com elfos e goblins, com drows e liches.
 
-Você está pronto para ingressar em tal mundo, como um aventureiro que sonha em se tornar um herói lendário: um guerreiro invencível, um clérigo indomável ou um mago misterioso. Você luta por missões sagradas e lendárias, e mede sua força diante de desafios severos e monstros sanguinários.
+Você está pronto para entrar nesse mundo, como um aventureiro que sonha em se tornar um herói lendário: um guerreiro invencível, um clérigo indomável ou um mago misterioso. Você luta por pedidos sagrados e missões lendárias, e mede sua força diante de desafios severos e monstros sanguinários.
 
-Esteja preparado, aventureiro iniciante com infinitas possibilidades. Este manual inclui tudo o que você precisa para se tornar um herói. Leia-o com atenção e logo você estará apto a enfrentar o primeiro desafio de sua vida épica!]]}
+Esteja preparado, novo aventureiro de possibilidades infinitas. Este manual inclui tudo que você precisa para se tornar um herói. Leia-o cuidadosamente, e em breve você será capaz de enfrentar o primeiro desafio de sua vida épica!]]}
 
-s_hlp_basics="Os Básicos"
+
+s_hlp_basics="Noções Básicas"
 s_hlp_basics_d=[[
-<s b=c:ty><b>A Mecânica Central:</b> Sempre que você tentar uma ação que tenha alguma chance de falhar, você lança um dado de vinte lados (d20).
+<s b=c:ty><b>Mecânica Central:</b> Sempre que você tenta uma ação que tem alguma chance de falhar, rola um dado de vinte faces (d20).
 
-Para determinar se seu personagem consegue realizar uma tarefa, faça o seguinte:
-• Lance um d20.
-• Adicione quaisquer modificadores relevantes.
-• Compare o resultado ao número alvo.
+Para determinar se seu personagem tem sucesso em uma tarefa, faça o seguinte:
+• Role um d20.
+• Some quaisquer modificadores relevantes.
+• Compare o resultado com um número-alvo.
 
-Se o resultado for igual ou maior que o número alvo, seu personagem consegue.
+Se o resultado for igual ou superior ao número-alvo, seu personagem tem sucesso.
 
-Se o resultado for menor que o número alvo, você falha.
+Se o resultado for inferior ao número-alvo, você falha.
 
 
-<b>Dados:</b> Os lançamentos de dados são descritos com expressões como "3d4+3", que significa "lance três dados de quatro lados e adicione 3" (resultando em um número entre 6 e 15).
+<b>Dados:</b> Rolagens de dados são descritas com expressões como "3d4+3", que significa "role três dados de quatro faces e adicione 3" (resultando em um número entre 6 e 15).
 
-O primeiro número diz quantos dados você deve lançar (somando os resultados).
+O primeiro número indica quantos dados rolar (somando os resultados).
 
-O número imediatamente após o "d" diz que tipo de dado usar.
+O número imediatamente após o "d" indica o tipo de dado a ser usado.
 
-Qualquer número depois disso indica uma quantidade que é adicionada ou subtraída do resultado.
+Qualquer número depois disso indica uma quantidade que será adicionada ou subtraída do resultado.
 
 
 <b>d%:</b> Dados percentuais funcionam um pouco diferente.
 
-Você gera um número entre 1 e 100 lançando dois dados de dez lados diferentes.
+Você gera um número entre 1 e 100 rolando dois dados de dez faces diferentes.
 
-Um (designado antes de você lançar) é o dígito das dezenas. O outro é o dígito das unidades.
+Um (designado antes de rolar) representa a dezena. O outro representa a unidade.
 
 Dois zeros representam 100.
 
 
-<b>Arredondamentos:</b> Em geral, se você obtiver uma fração, arredonde para baixo, mesmo se a fração for um meio ou maior.
+<b>Arredondamento de Frações:</b> Em geral, se você acabar com uma fração, arredonde para baixo, mesmo que a fração seja meio ou maior.
 
-<b c=tw>Exceção:</b> Certos lançamentos, como dano e pontos de vida, têm um mínimo de 1.
-
-
-<b>Multiplicação:</b> Às vezes, uma regra faz você multiplicar um número ou um lançamento de dado.
-
-Contanto que você esteja aplicando um único multiplicador, multiplique o número normalmente.
-
-Quando dois ou mais multiplicadores se aplicam a qualquer valor abstrato (como um modificador ou um lançamento de dado), no entanto, combine-os em um único múltiplo, com cada multiplicador extra adicionando 1 a menos que seu valor ao primeiro múltiplo.
-
-Assim, um dobro (×2) e um dobro (×2) aplicados ao mesmo número resultam em um triplo (×3, porque 2 + 1 = 3).
+<b c=tw>Exceção:</b> Certas rolagens, como dano e pontos de vida, têm um mínimo de 1.
 
 
-Quando se aplica multiplicadores a valores do mundo real (como peso ou distância), as regras normais da matemática se aplicam.
+<b>Multiplicação:</b> Às vezes uma regra faz você multiplicar um número ou uma rolagem de dado.
 
-Uma criatura cujo tamanho dobra (multiplicando assim seu peso por 8) e depois é transformada em pedra (o que multiplicaria seu peso por um fator de aproximadamente 3) agora pesa cerca de 24 vezes o normal, não 10 vezes o normal.
 
-Da mesma forma, uma criatura cega tentando atravessar um terreno difícil contaria cada quadrado como 4 quadrados (dobrando o custo duas vezes, para um multiplicador total de ×4), em vez de 3 quadrados (adicionando 100% duas vezes).
+Desde que você esteja aplicando um único multiplicador, multiplique o número normalmente.
+
+
+Quando dois ou mais multiplicadores se aplicam a qualquer valor abstrato (como um modificador ou rolagem de dado), combine-os em um único múltiplo, com cada múltiplo extra adicionando 1 a menos que seu valor ao primeiro múltiplo.
+
+Assim, um duplo (×2) e outro duplo (×2) aplicados ao mesmo número resultam em um triplo (×3, porque 2 + 1 = 3).
+
+
+Ao aplicar multiplicadores a valores do mundo real (como peso ou distância), as regras normais de matemática se aplicam.
+
+Uma criatura cujo tamanho dobra (multiplicando seu peso por 8) e depois é transformada em pedra (o que multiplicaria seu peso por aproximadamente 3) agora pesa cerca de 24 vezes o normal, não 10 vezes.
+
+Similarmente, uma criatura cega tentando atravessar terreno difícil contaria cada quadrado como 4 quadrados (dobrando o custo duas vezes, totalizando um multiplicador de ×4), ao invés de 3 quadrados (adicionando 100% duas vezes).
 ]]
-poorlunch_tips={n="Apêndice 1: Citações do caçador de butim",d=[[Poorlunch, o lendário aventureiro ainda em atividade, é o ídolo de muitos jovens aventureiros. Além de suas habilidades de combate soberbas e experiências de vida épicas, sua disposição em ajudar e compartilhar com os jovens também é um importante motivo para o respeito e adoração.
 
-Estranhamente, ele sempre responde de forma muito breve quando outros aventureiros lhe fazem perguntas. Às vezes, ele divide a resposta em duas partes, embora devesse ser um parágrafo, e é preciso perguntar-lhe duas vezes...
+
+poorlunch_tips={n="Apêndice 1: Citações do Caçador de Tesouros",d=[[Poorlunch, o lendário aventureiro ainda em serviço ativo, é o ídolo de muitos jovens aventureiros. Além de suas habilidades de combate excepcionais e experiência de vida épica, sua disposição em ajudar e compartilhar com os jovens também é uma razão importante para o respeito e adoração.
+
+Estranhamente, ele sempre responde muito brevemente sempre que outros aventureiros lhe fazem perguntas. Às vezes ele divide a resposta em duas partes embora devesse ser um parágrafo, e é preciso perguntá-lo duas vezes...
 
 A razão permanece desconhecida, e aventureiros curiosos têm que fazer suas próprias especulações:
 Alguns dizem que é a sequela de ter sido dominado por muito tempo durante seu último combate com um demilich;
-Alguns dizem que o declínio da tecelagem mágica afetou muito os aventureiros épicos;
-No entanto, recentemente uma suposição de rápida disseminação parece bastante credível: Poorlunch acha que muitas palavras simplesmente atrasam a caça ao butim!
+Alguns dizem que o declínio da teia mágica afetou grandemente os aventureiros épicos;
+Entretanto, recentemente uma suposição de rápida disseminação parece bastante credível, que Poorlunch pensa que muitas palavras simplesmente atrasam a caça ao saque!
 
-De qualquer forma, vamos ignorar seu hábito pessoal estranho e ouvir suas citações concisas e benéficas:
+Enfim, vamos apenas ignorar seu hábito pessoal estranho e ouvir suas citações concisas e benéficas:
 
-* Feitos à distância se aplicam a armas arremessadas.
 
-* Armas arremessadas mágicas retornam.
+* Talentos à distância se aplicam a armas arremessáveis.
 
-* Clérigos, vão jogar clavas.
+* Armas arremessáveis mágicas retornam.
 
-* Empunhar duas bestas de mão.
+* Clérigos, vão arremessar clavas.
 
-* Subir de nível não concede mais ataques. Apenas mais força.
+* Manuseio duplo de bestas de mão.
 
-* 10 níveis é um patamar. O dano base de armas/feitiços é multiplicado. Os talentos de especialização em armas também.
+* Subir de nível não concede mais ataques. Apenas mais forte.
 
-* Ataque de turno completo: bônus de +2 no ataque e dano, dano multiplicado com o patamar.
+* 10 níveis formam um tier. O dano base de arma/magia multiplica. Talentos de especialização em armas também.
 
-* Deslocamento: Não é uma ação. Pode aplicar ataques de turno completo. Não pode se mover.
+* Ataque de turno completo: +2 de bônus ao ataque e dano, dano multiplica com o tier.
 
-* Carga: Em linha reta ou diagonal, duas casas, caminho plano, ataques corpo a corpo.
+* Deslocamento: Não é uma ação. Pode aplicar ataques de turno completo. Não pode mover-se.
 
-* Lançamento de feitiços: Habilidade principal do feitiço versus defesa dos alvos, metade do dano quando errado.]]}
+* Investida: Em linha reta ou diagonal, duas casas, caminho plano, ataques corpo a corpo.
+
+* Conjuração de magia: Habilidade principal de magia versus defesa dos alvos, metade do dano quando erra.]]}
+
 
 zero_tips={n="Apêndice 2: Guia avançado de combate",d=[["Por favor, feche este manual e me escute.
 
-Só de ver você nessa pose de iniciante, eu apostaria que as citações de outra pessoa se adequam muito melhor a você. Você deveria ler aquilo primeiro e praticar um pouco de combate antes de ler este manual.
+Apenas pela sua postura amadora eu poderia apostar que as citações de alguém lhe servem muito melhor. Você deve ler isso primeiro e praticar um pouco de combate antes de ler este manual.
 
-Não, eu não vou te proibir de ler, mas não reclame se sofrer algum dano em suas habilidades mentais."
+Não, não vou impedir que você leia, mas não chore se sofrer algum dano nas habilidades mentais."
 	<r>- clérigo pré-bom, Xvim</r>
 
 <s h3=c:lbl>
-<h3>Detalhes sobre combate com duas armas / empunhar duas armas</h3>
-Ajuste padrão (arma principal/arma secundária): <c=r>-6/-10</c>
+<h3>Detalhes sobre combate com duas armas / manuseio duplo</h3>
+Ajuste padrão (mão principal/mão secundária): <c=r>-6/-10</c>
 
-Com o talento "Combate com Duas Armas": <c=g>+2/+6</c> (ajuste atual: <c=r>-4/-4</c>)
+Com o talento "Two-Weapon Fighting": <c=g>+2/+6</c> (ajuste atual: <c=r>-4/-4</c>)
 
 Arma leve na mão secundária: <c=g>+2/+2</c> (ajuste atual: <c=r>-2/-2</c>)
 
-Com o talento "Combate com Duas Armas Perfeito": Sem penalidade alguma, mesmo com uma arma não leve na mão secundária (ajuste atual: <c=r>0/0</c>).
+Com o talento "Perfect Two-Weapon Fighting": Nenhuma penalidade, mesmo com uma arma não leve na mão secundária (ajuste atual: <c=r>0/0</c>).
 
 
-<h3>O talento "Gume Duplo" funciona com duas bestas de mão?</h3>
-Não, não funciona. "Defesa com Duas Armas", "Defesa com Duas Armas Aprimorada", "Fatia Dupla" e "Gume Duplo" só funcionam com combate corpo a corpo com duas armas.
+<h3>O talento "Two-Weapon Rending" funciona com bestas de mão duplas?</h3>
+Não, não funciona. "Two-Weapon Defense", "Improved Two-Weapon Defense", "Double Slice" e "Two-Weapon Rend" só funcionam com manuseio duplo corpo a corpo.
 
 
-<h3>Como fazer uma carga?</h3>
-Uma carga é ativada automaticamente quando todos os pré-requisitos são atendidos: antes de um ataque corpo a corpo, feito um movimento em linha reta de pelo menos 2 casas de distância, com todo o caminho livre de obstáculos e terrenos difíceis.
+<h3>Como fazer uma investida?</h3>
+Uma investida é ativada automaticamente quando todos os pré-requisitos são atendidos: antes de um ataque corpo a corpo, fez um movimento em linha reta a partir de pelo menos 2 casas de distância, com todo o caminho livre de obstáculos e terreno difícil.
 
 
-<h3>Encantamento: Defesa (Somente armas)</h3>
-Em armas corpo a corpo pode haver um encantamento especial: Defesa - bônus de escudo de +x na CA, funciona de forma semelhante a um escudo equipado.
+<h3>Encantamento: Defendendo (Apenas armas)</h3>
+Em armas corpo a corpo pode haver um encantamento especial: Defendendo - +x bônus de escudo na classe de armadura, funciona de forma semelhante a um escudo equipado.
 
-Esse bônus não se acumula com o bônus de CA de um escudo real, então é mais adequado para personagens com armas de duas mãos ou combate com duas armas sem um escudo.
+Este bônus não se acumula com o bônus de classe de armadura de um escudo real, portanto é mais adequado para personagens com armas de duas mãos ou manuseio duplo e sem escudo.
 
-É um pouco mais complicado quando o encantamento de defesa ocorre em armas que são tanto corpo a corpo quanto arremessadas, como uma lança: o encantamento funciona normalmente quando a arma é usada como corpo a corpo; mas não tem efeito se a arma for usada para arremessar.
-
-
-<h3>Turno de clérigos: virar mortos-vivos</h3>
-Verificação de Virar: nível do personagem + modificador de Carisma + bônus de talentos vs. defesa de Vontade do alvo + Resistência a Virar
+É um pouco mais complicado quando o encantamento de defesa ocorre em armas que são tanto corpo a corpo quanto arremessáveis, como uma lança: o encantamento funciona normalmente quando a arma é usada como corpo a corpo; mas não tem efeito se a arma for usada para arremesso.
 
 
-<h3>Às vezes não há efeito ao lançar um feitiço mirando fora do campo de visão.</h3>
-Lançar um feitiço requer linha de efeito. Se houver obstáculos não vistos bloqueando a linha de efeito, o feitiço simplesmente falhará.
+<h3>Clérigos' turn undead:</h3>
+Teste de Virar Morto: nível do personagem + modificador de Carisma + bônus de talento vs. defesa de Vontade do alvo + Resistência ao Virar Morto
 
 
-<h3>Como obstáculos, inimigos e aliados afetam o campo de batalha?</h3>
+<h3>Às vezes não há efeito ao conjurar uma magia que tem como alvo fora da visão.</h3>
+Conjurar uma magia requer linha de efeito. Se houver obstáculos invisíveis bloqueando a linha de efeito, a magia simplesmente falhará.
+
+
+<h3>Como os obstáculos, inimigos e aliados afetam o campo de batalha?</h3>
 
 Influências no movimento:
 
-Obstáculos e inimigos não contidos bloquearão seu movimento. Você não pode passar por eles.
+Obstáculos e inimigos não contidos bloquearão seu movimento. Você não pode atravessá-los.
 
-Casas adjacentes a inimigos não contidos são suas <c=r>Zonas de Controle (ZoC)</c>, e você não pode passar por elas. Você deve primeiro se mover para tal casa e parar, então esperar até seu próximo turno para continuar se movendo.
+Casas adjacentes a inimigos não contidos são sua <c=r>Zona de Controle (ZoC)</c>, e você não pode atravessá-las. Você deve primeiro mover-se para tal casa e parar, então esperar seu próximo turno para continuar a mover-se.
 
-Inimigos não contidos equipados com armas corpo a corpo atacarão qualquer oponente tentando sair de suas ZoC, tal ataque é chamado de <c=r>Ataque de Oportunidade (OA)</c>. Mudar de posição usando <c=g>Deslocamento</c> (movimento de 1 casa) pode prevenir OAs.
+Inimigos não contidos equipando armas corpo a corpo atacarão qualquer oponente que tente sair de sua ZoC, tal ataque é chamado <c=r>Ataque de Oportunidade (AO)</c>. Mudar de posição usando <c=g>Deslocamento</c> (passo de 1 casa) pode prevenir AOs.
 
-Terreno difícil: terrenos com pequenos obstáculos ou alguns efeitos de feitiços (Teia, Escorregadio, etc.), e casas ocupadas por seus aliados ou inimigos contidos são todos considerados terrenos difíceis. Esses terrenos exigem o dobro de esforço para atravessar, e <c=g>Deslocamento</c> não é permitido neles.
+Terreno difícil: terreno com pequenos obstáculos ou alguns efeitos de magia (Teia, Graxa, etc.), e casas ocupadas por seus aliados ou inimigos contidos são todos considerados terreno difícil. Esses terrenos exigem o dobro de esforço para atravessar, e <c=g>Deslocamento</c> não é permitido neles.
 
-Influências nos ataques:
 
-Obstáculos e inimigos não contidos podem afetar seus ataques se o alvo estiver sob <c=r>Cobertura</c> (ataque <c=r>-2</c>) ou <c=r>Cobertura Superior</c> (ataque <c=r>-4</c>); eles também podem bloquear sua área de ataque, incluindo ataques à distância e feitiços.
+Influências no ataque:
 
-Aliados e inimigos contidos não afetarão sua área de ataque e bônus.</s>]]}
+Obstáculos e inimigos não contidos podem afetar seus ataques se o alvo estiver sob <c=r>Cobertura</c> (ataque <c=r>-2</c>) ou <c=r>Cobertura Superior</c> (ataque <c=r>-4</c>); eles também podem bloquear sua área de ataque, incluindo ataques à distância e magias.
+
+</s>]]}
+
+
+hlp_cmbt={n="Combate", d=
+[[Espadas poderosas se chocam, flechas sibilam no ar, garras rasgam e dilaceram; esses são os sons empolgantes da batalha. Aventureiros estão constantemente envolvidos em situações de combate - e não gostariam que fosse de outra forma!
+
+Se os aventureiros precisam repelir uma emboscada de bandidos em uma estrada deserta ou lutar para sair da caverna de bugbear na parte mais profunda de uma masmorra, as regras deste capítulo fornecem uma maneira empolgante de resolver qualquer situação de combate.]]}
+
+hlp_cmbt_flow={n="", d=[[]]}
+
+hlp_atk_def={n="", d=[[]]}
+
+hlp_dmg_hp={n="", d=[[]]}
+
+hlp_saves={n="", d=[[]]}
+
+hlp_cmbt_mods_ex=[[]]
+
+
+faq=[[<c=twa>Perguntas Frequentes
+
+<s h3=c:tw>
+<h3>Q: Nada acontece depois que a resolução do vídeo foi alterada?</h3>
+A: Por favor, reinicie o jogo.
+
+
+<h3>Q: Posso escolher as habilidades e talentos ao subir de nível?</h3>
+A: Selecione \"Custom\" ao criar um personagem e você está por conta própria. Os personagens \"Premade\" são projetados para jogadores iniciantes.
+
+
+<h3>Q: Qual é o nível máximo?</h3>
+A: Atualmente, não há limite superior para subir de nível no modo Arena. Nem o nível da Arena tem limite.
+
+
+<h3>Q: Minha barra de habilidades está totalmente cheia e não consigo ver as novas habilidades.</h3>
+A: Clique com o botão direito na barra de habilidades para substituir e adicionar novas habilidades.
+   Clique com o botão direito no personagem para selecionar todas as habilidades disponíveis.
+
+
+<h3>Q: Como posso verificar a sequência de ação e outras informações dos combatentes?</h3>
+A: Pressione a tecla <b>Alt</b> para ver \"<b>Action sequence</b>\" e outras informações.
+
+
+<h3>Q: Posso usar retratos personalizados e outros recursos?</h3>
+A: Todos os recursos do jogo são abertos e você pode editá-los/substituí-los livremente.
+   pasta gfx: gráficos
+   pasta sfx: música e efeitos sonoros
+   pasta text: textos. en para Inglês, cs para Chinês, etc.
+
+Você também pode baixar mais recursos diretamente do <url=http://steamcommunity.com/app/576770/workshop/>Steam Workshop</url>.
+
+
+<h3>Q: Não é necessário recarregar uma besta? É um desequilíbrio que bestas pesadas são melhores que arcos longos tanto em alcance quanto em dano.</h3>
+A: Boa sugestão. O ponto é que clicar para recarregar é irritante, e avisos de ataque de oportunidade surgindo são ainda piores. Assim, a ação de recarregar foi removida junto com o talento Recarga Rápida.
+
+Haverá mais talentos para distinguir arcos e bestas em versões futuras: arcos são melhores para tiro rápido e múltiplos alvos, e bestas para dano maior e ataque perfurante.
+
+
+<h3>Q: Por que as fundas são armas de duas mãos? Elas são tradicionalmente armas de uma mão.</h3>
+A: Sim, são armas de uma mão, mas requerem duas mãos para recarregar. Basta ter bestas de mão como as típicas armas de alcance de uma mão.
+
+
+<h3>Q: Por que não há correr, fintar, ajudar outros etc.? O jogo seria muito mais interessante!</h3>
+A: Sim, seria. Contudo, o foco principal agora é combate simples e direto. Estamos trabalhando em uma série de ações complicada como o sistema de Manobras de Combate de Pathfinder, e outras opções precisam ser adicionadas gradualmente com cautela.
+
+Mais opções nem sempre são bem-vindas quando exigem muito tempo para encontrar a melhor solução. Elas podem desacelerar o fluxo de combate. No ADnD TRPG, esse caso ocorre mesmo sem tantas opções. Aqui está um exemplo REAL:
+
+   O lutador: \"Devo derrubá-lo ou empurrá-lo?\"
+   O ladino: \"Sem empurrar, preciso flanquear.\"
+   O clérigo: \"Isso é arriscado. Com um deslocamento de um quadrado, todos estamos na aura dele!\"
+   O ladino: \"Você recua. Eu poderia fazer um golpe de troca de posição.\"
+   O mago: \"Ou eu posso puxá-lo mais perto.\"
+   O lutador: \"Não, você não pode. É um canto sólido.\"
+   O mago: \"Posso mover para cá e puxar. Mas o clérigo deve ficar fora da linha.\"
+   O clérigo: \"Eu recuo e o ladino será esmagado.\"
+   
+   Dez minutos depois, eles encontram a melhor jogada. O lutador rola o dado com confiança. O resultado é FALHA.
+
+   \"Hora de repensar...\"
+   
+     - De Sheepy, administrador do fórum TRPG www.goddessfantasy.net.
+</s></c>]]
+
+
+credits=[[<f=b6 c=lbl>Criador Principal & Programação</f>
+
+<url=http://www.lowmagicage.com>Thomas Lee (AM)</url>
+
+
+<f=b6 c=lbl>Redação de Descrições de Itens & Polimento de Texto em Inglês</f>
+
+<url=https://discord.gg/zMPgh8r>Roy Riley</url>
+
+
+<f=b6 c=lbl>Arte</f>
+
+<url=http://www.rpgartkits.com>Raymond E. Gaustadnes</url> - Agradecimentos ao artista norueguês Raymond E. Gaustadnes (<url=http://shockbolt.deviantart.com/gallery>Shockbolt</url>) que fornece a licença comercial não exclusiva de um conjunto completo de imagens de monstros/itens/retratios.
+
+<c=twa>Raymond fez outro conjunto de tiles para ToME4. Portanto, ambos os tilesets compartilham estilo semelhante e alguns tiles iguais.</c>
+
+<url=https://www.deviantart.com/joakimolofsson>Joakim Olofsson</url> - Algumas ilustrações
+<url=http://opengameart.org>OpenGameArt</url> - Vários recursos
+<url=http://ramah-palmer.deviantart.com>Andy (Ramah-Palmer)</url> - Alguns elementos de mapa desenhados à mão
+<url=http://game-icons.net>Game-Icons.net</url> - A maioria dos ícones<c=twa> (veja o apêndice para informações detalhadas)</c>
+<url=http://p.yusukekamiyamane.com>Yusuke Kamiyamane</url> - Alguns ícones
+<url=https://www.patreon.com/justinnichol>Justin Nichol</url> - Alguns retratos
+<url=http://www.cbigame.com>cbigame</url> - Algumas cenas
+<url=https://github.com/adobe-fonts/source-han-sans/>Source Han Sans</url> - Fontes Chinesas<c=twa> (Simplificado & Tradicional)</c>
+<url=http://www.latofonts.com>Lato Fonts</url> - Fontes Inglesas
+<url=http://www.drivethrurpg.com>DriveThruRPG.com</url> - A Maior Loja de Download de RPG
+<url=http://www.drivethrurpg.com/browse/pub/3482/Sine-Nomine-Publishing.com>Sine Nomine Publishing</url> - Algumas ilustrações
+Aaron Lee
+Christ of Grobelski
+Jeff Brown
+Joyce Maureira
+Mohammed Agbadi
+Tan Ho Sim
+
+
+<f=b6 c=lbl>Música & Efeitos Sonoros</f>
+
+<url=http://www.matthewpablo.com>Matthew Pablo - MP Audio Solutions</url>
+<url=http://egoboo.sourceforge.net>Zefz</url>
+<url=https://opengameart.org/users/horrorpen>Horror Pen</url>
+<url=http://www.cynicmusic.com>The Cynic Project</url>
+<url=http://www.littlerobotsoundfactory.com>Little Robot Sound Factory</url>
+
+
+<f=b6 c=lbl>Design Web & Redação de Documentos</f>
+
+<url=http://www.shinegame.com>Diana Keller</url>
+
+
+<f=b6 c=lbl>Tradução</f>
+
+Inglês:
+Diana Keller
+poorlunch
+xvim
+Kagami Neko
+18982265276xjz
+Huskar
+ASC_8384
+SisseL
+<url=mailto:willsama974@gmail.com>Willsama974</url>
+Manny / Eisenwulf
+
+Italiano:
+<url=https://business.facebook.com/TigerTraduzioni/>Gruppo T.i.g.e.r.</url>
+Dark Legend
+Chantalion
+The Ripper
+
+Francês:
+KillPower
+Targus
+JpDonald
+Soifran
+of http://rpgjeuxvideo.eklablog.fr/low-magic-age-a166591452
+
+Japonês:
+<url=https://synctam.blogspot.com/2017/05/low-magic-age.html>Synctam</url>
+Rokusai Katsushika
+KAZE NO KATACHI
+
+Espanhol:
+Miguel Lara
+
+
+<f=b6 c=lbl>Regras & Jogos de Referência</f>
+
+<url=http://www.wizards.com/default.asp?x=d20/article/srd35>Wizards of the Coast</url> - Licença Aberta de Jogos das regras oficiais, veja a seção OGL.
+<url=http://www.paizo.com>Paizo</url> - Pathfinder, um conjunto de maravilhosas regras de terceiros evoluídas das regras oficiais.
+<url=http://www.goddessfantasy.net>Goddess Fantasy</url> - Agradecimentos à comunidade Goddess Fantasy, um dos sites de TRPG mais famosos da China.
+<url=http://www.wesnoth.org>The Battle for Wesnoth</url> & <url=http://www.ubisoft.com.cn>Heroes of Might and Magic</url> - Algumas regras e UI.
+
+
+<f=b6 c=lbl>Outros Envolvidos na Criação e Testes</f>
+<c=twa>
+<h3>Comentário de Jogo & Produção de Vídeo</h3>
+<url=http://space.bilibili.com/6917320>kevinjones</url>
+<url=http://space.bilibili.com/504942>SCP166</url>
+<url=http://space.bilibili.com/1445474>Computer_NPC</url>
+<url=http://space.bilibili.com/919731>Ghost of the Subterranean Animism</url>
+<url=http://weibo.com/u/5303199381>Lao Wu</url>
+<url=http://space.bilibili.com/14465526>Tang GAME</url>
+
+
+Por último, mas não menos importante, o apoio a longo prazo e as sugestões dos nossos jogadores são o maior incentivo que nos ajuda a melhorar o jogo. As sugestões e discussões podem ser vistas na <url=http://steamcommunity.com/app/576770/discussions/>Steam community</url>.
+
+
+<f=b6 c=lbl>Apêndice</f>
+
+<c=twa>Ícones do Game-Icons.net fornecidos sob a licença Creative Commons 3.0 BY ou CC0 se mencionado abaixo.</c>
+
+Ícones feitos por:
+<url=http://lorcblog.blogspot.com>Lorc</url>
+<url=http://delapouite.com>Delapouite</url>
+<url=http://ninmunanmu.com>John Colburn</url>
+<url=http://blackdogofdoom.blogspot.co.uk>Felbrigg</url>
+<url=http://www.uniquedicetowers.com>John Redman</url>
+<url=https://twitter.com/unstoppableCarl>Carl Olsen</url>
+<url=http://opengameart.org/content/95-game-icons>Sbed</url>
+PriorBlue
+<url=http://wjbstories.blogspot.com>Willdabeast</url>
+<url=http://viscious-speed.deviantart.com>Viscious Speed</url> - CC0
+<url=http://berandas.deviantart.com>Lord Berandas</url>
+<url=http://ecesisllc.wix.com/home>Irongamer</url>
+<url=http://www.gnomosygoblins.blogspot.com>HeavenlyDog</url>
+Lucas
+<url=http://fungustoken.deviantart.com>Faithtoken</url>
+Skoll
+<url=http://www.se.rit.edu/~andy/>Andy Meneely</url>
+Cathelineau
+Kier Heyl
+Aussiesim]]
+
+
+ogl_diffs=[[<c=twa>O conteúdo real deste jogo diverge das regras padrão 3.5 de várias maneiras. Estas são as principais diferenças:</c>
+
+
+Muitos talentos e magias foram removidos, alguns foram modificados, alguns foram adicionados.
+
+Todas as criaturas morrem com 0 HP.
+
+O alcance máximo da maioria das armas à distância e magias foi muito reduzido.
+
+Power Attack e Charge são passivos agora, não é necessário escolher ou executar.
+
+Criaturas grandes não ganham alcance especial e ocupam apenas 1 quadrado.
+
+Mais classes e outros conteúdos estão em desenvolvimento e aprimoramento...
+
+
+<b>Os seguintes recursos foram descartados ou ainda não implementados:</b>
+Pergaminhos, varas mágicas e varinhas
+Desarmar, Esmagar
+Poderes de domínio, magias de domínio
+Montaria]]

@@ -1,3 +1,9 @@
 .env
 translate_lua.py
 checkpoints/
+translation-run-2.err.log
+translation-run-2.out.log
+translation-run.err.log
+translation-run.out.log
+__pycache__/translate_lua.cpython-314.pyc
+*.log

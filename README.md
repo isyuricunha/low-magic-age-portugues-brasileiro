@@ -10,7 +10,7 @@ Siga os passos abaixo para instalar a tradução manualmente.
 
 ### 1. Baixar os arquivos
 
-Baixe o arquivo `text.zip` ou `text.7z` da seção de [Releases do GitHub](https://github.com/isyuricunha/low-magic-age-portugues-brasileiro/releases) ou da página de downloads do NexusMods.
+Baixe o arquivo `text.zip` ou `text.7z` da seção de [Releases do GitHub](https://github.com/isyuricunha/low-magic-age-portugues-brasileiro/releases) ou da página da tradução no [NexusMods](https://www.nexusmods.com/lowmagicage/mods/8).
 
 ### 2. Localizar a pasta do jogo
 

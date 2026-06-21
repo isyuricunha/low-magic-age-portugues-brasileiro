@@ -2,6 +2,8 @@
 
 Tradução completa do jogo **Low Magic Age** para o Português Brasileiro. Todos os textos da interface, itens, habilidades, classes, raças, monstros e diálogos foram traduzidos.
 
+**Participe da comunidade no Discord:** <https://discord.gg/uFEwSMwUYb>
+
 ---
 
 ## Instalação
